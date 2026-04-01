@@ -12,7 +12,7 @@ while palpite!=numero_secreto:
         print(f"Parabéns, Você acertou!!! Total de Tentativas: {tentativas}")
     
     elif(tentativas==7):
-        print("Gamer Over, excesso de tentativas !!!")
+        print("Game Over, excesso de tentativas !!!")
         break
     
     elif(palpite!=numero_secreto):
